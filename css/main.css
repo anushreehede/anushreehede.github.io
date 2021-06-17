@@ -2130,6 +2130,18 @@ header .logo a {
 .services-content {
 	max-width: 1200px;
 }
+.services-content p a, a:visited {
+	color: #FF0077;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.services-content p a:hover, a:focus, a:active {
+	color: #FFFFFF;
+	outline: 0;
+}
 .services-list {
 	margin-top: 1.2rem;
 	text-align: center;
