@@ -25,6 +25,15 @@
    ================================================== -->   
 	<script src="js/modernizr.js"></script>
 	<script src="js/pace.min.js"></script>
+	<script src="text/js"> 
+		$(function() {
+		   $("#skills").hover(function() {
+		    $(this).find("span").show();
+		    },function(){
+		    $(this).find("span").hide();
+		  });
+		});
+	</script>
 
    <!-- favicons
 	================================================== -->
@@ -166,24 +175,24 @@
 
 				<ul class="skill-bars">
 				   <li>
+				   	<div id="skills" class="progress percent90"><span>Comfortable</span></div>
 				   	<strong>Python, PyTorch, MySQL</strong>
-				   	<div class="progress percent90"><span>Comfortable</span></div>				   	
 				   </li>
 				   <li>
+				   	<div id="skills" class="progress percent75"><span>Moderate Experience</span></div>
 				   	<strong>C++, HuggingFace, Git, Linux</strong>
-				   	<div class="progress percent75"><span>Moderate Experience</span></div>
 				   </li>
 				   <li>
+				   	<div id="skills" class="progress percent60"><span>Well Acquainted</span></div>
 				   	<strong>Java, Scikit-learn, NLTK, Pandas</strong>
-				   	<div class="progress percent60"><span>Well Acquainted</span></div>				   	
 				   </li>
 				   <li>
+				   	<div id="skills" class="progress percent45"><span>Familiarity</span></div>
 				   	<strong>S3, Hadoop, EMR, Spark</strong>
-				   	<div class="progress percent45"><span>Familiarity</span></div>
 				   </li>
 				   	<li>
+				   	<div id="skills" class="progress percent30"><span>Basic</span></div>
 				   	<strong>JavaScript, HTML, CSS</strong>
-				   	<div class="progress percent30"><span>Basic</span></div>				   	
 				   </li>
       
 				</ul> <!-- /skill-bars -->		
