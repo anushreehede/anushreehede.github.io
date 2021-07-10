@@ -274,8 +274,7 @@
 
 	            	<h3>Visual Question-Answering: Using Object Information as Metadata</h3>  
 
-		            <p class="desc">· [<a href="https://drive.google.com/file/d/1Qzo0Vjg8UqdJsFU0HUpUfr-a9NMdCrAZ/view?usp=sharing">Report</a>][<a href="https://github.com/anushreehede/CIS522-Project">Code</a>]<br>· Implemented a (GRU+ResNet)-based model for visual question-answering trained on the VQA dataset, on AWS Sagemaker<br>
-					· Added a module with Faster-rCNN features of object positions in the image, and obtained a 5% increase in accuracy <br> <a href="#modal-05">Read More</a>
+		            <p class="desc">· [<a href="https://drive.google.com/file/d/1Qzo0Vjg8UqdJsFU0HUpUfr-a9NMdCrAZ/view?usp=sharing">Report</a>][<a href="https://github.com/anushreehede/CIS522-Project">Code</a>]<br>Designed a deep learning architecture for visual question-answering using GRU and a pre-trained ResNet. As an enhancement, we included a module that captures Faster-rCNN features of object positions in the image. This gave us a 5% increase in accuracy for the task. <br> <a href="#modal-05">Read More</a>
 	         		</p>
 
 	            </div>	 
@@ -289,7 +288,7 @@
 
 	            	<h3>Predicting Success of Kickstarter Projects</h3>  
 
-		            <p class="desc">· [<a href="https://drive.google.com/file/d/1Nvo782l3__drGxA3Bir3C_HApDIC5iOa/view?usp=sharing">Report</a>][<a href="https://github.com/anushreehede/CIS520-Project">Code</a>]<br>· Collected a self-scraped dataset of Kickstarter projects, and performed feature selection<br>· Developed a model for predicting if a particular project is likely to be successful or not given the project details<br>· Experimented with a a range of classification and regression approaches for the problem; gradient boosting gave the best results  <br> <a href="#modal-06">Read More</a>
+		            <p class="desc">· [<a href="https://drive.google.com/file/d/1Nvo782l3__drGxA3Bir3C_HApDIC5iOa/view?usp=sharing">Report</a>][<a href="https://github.com/anushreehede/CIS520-Project">Code</a>]<br>Performed a detailed feature selection for the Kickstarter projects, and applied a variety of classical machine learning techniques to predict the success of a Kickstarter projects. <br> <a href="#modal-06">Read More</a>
 	         		</p>
 
 	            </div>	 
@@ -422,7 +421,7 @@
 
 					   <div class="description-box">
 					      <h4>Explainability for Multiple-Choice Science Question-Answering</h4>		      
-					      <p>AristoRoBERTa is the state-of-the-art choice for building multiple-choice QA models. As input, it takes in the question, answer option, and a set of ten supporting context sentences for each answer option. It then predicts the correct answer choice for the question. We define two types of probing mechanisms (a) single (where only one out of ten context sentences is used for scoring) and (b) leave-one-out (where all but one out of ten contect sentences are used for scoring), and probe the trained model itself to rank the context sentences in order of their importance toward answering the question. We thus obtained explanations out of black-box models. Further, a  comparable performance is obtained when only a subset of most important context sentences are provided to the model to make an answer prediction.</p>
+					      <p><a href="https://arxiv.org/pdf/1909.01958.pdf">AristoRoBERTa</a> is the state-of-the-art choice for building multiple-choice QA models developed by <a href="https://allenai.org/">Allen AI </a>. As input, it takes in the question, answer option, and a set of ten supporting context sentences for each answer option. It then predicts the correct answer choice for the question. We define two types of probing mechanisms (a) single (where only one out of ten context sentences is used for scoring) and (b) leave-one-out (where all but one out of ten contect sentences are used for scoring), and probe the trained model itself to rank the context sentences in order of their importance toward answering the question. We thus obtained explanations out of black-box models. Further, a  comparable performance is obtained when only a subset of most important context sentences are provided to the model to make an answer prediction.</p>
 
 					      <div class="categories">Advised by: Dr. Dan Roth </div>			               
 					   </div>
@@ -437,12 +436,14 @@
 				   <div id="modal-05" class="popup-modal slider mfp-hide">	
 
 				     	<div class="media">
-				     		<img src="images/portfolio/Robot.jpg" alt="" />
+				     		<img src="images/522.png" alt="" />
+				     		<img src="images/522-1.png" alt="" />
+				     		<img src="images/522-2.png" alt="" />
 				     	</div>      	
 
 					   <div class="description-box">
 					      <h4>Visual Question-Answering: Using Object Information as Metadata</h4>		      
-					      <p></p>
+					      <p>One of the most popular datasets for visual question-answering is the <a href="https://visualqa.org/">Visual QA Dataset</a>. In this course project, we were to build three models: (a) non-deep learning baseline: concatenated a bag-of-words from the question, and ResNet-50 features from the image, (b) deep learning baseline: swapped above with an embedding layer and GRU, and (c) and advanced deep learning model: the deep learning baseline with attention modules, and a Faster-rCNN feature module for object positions in the image. The advanced model was purely experimental and interestingly gave a 5% increase in accuracy compared to the baselines. The models were trained and tested on AWS Sagemaker. 
 
 					      <div class="categories">Course Project of "Deep Learning for Data Science" at UPenn</div>			               
 					   </div>
@@ -457,12 +458,15 @@
 				   <div id="modal-06" class="popup-modal slider mfp-hide">	
 
 				     	<div class="media">
-				     		<img src="images/portfolio/Paint.jpg" alt="" />
+				     		<img src="images/520.png" alt="" />
+				     		<img src="images/520-1.png" alt="" />
+				     		<img src="images/520-2.png" alt="" />
+				     		<img src="images/520-3.png" alt="" />
 				     	</div>      	
 
 					   <div class="description-box">
 					      <h4>Predicting Success of Kickstarter Projects</h4>		      
-					      <p></p>
+					      <p><a href=""> Kickstarter </a>is an online platform, home to the popular method of crowdfunding, where several people contribute small amounts of money to a new startup or project. Typically, these projects define a target budget and some additional information such as country, project description, deadline, backers, etc. If the project is able to raise funds to meet it's target amount, then it is declared as a success on Kickstarter. In this project, we applied a variety of classical machine learning techniques to determine whether a given Kickstarter project will be successful or not. We collected some of our data from the <a href=""> </a> and scraped the remaining from the Kickstarter website. We also performed a detailed feature selection process and visualized the data extensively. We experimented with a range of classification and regression approaches for the problem, and determined that gradient boosting gave the best results for the task.</p>
 
 					      <div class="categories">Course Project of "Machine Learning" at UPenn</div>			               
 					   </div>
