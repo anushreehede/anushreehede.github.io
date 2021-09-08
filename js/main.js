@@ -45,14 +45,14 @@
 	/* Owl Carousel
 	------------------------------------------------------ */ 
 	$("#owl-slider").owlCarousel({
-        navigation: false,
+        navigation: true,
         pagination: true,
         itemsCustom : [
 	        [0, 1],
 	        [700, 2],
 	        [960, 3]
 	     ],
-        navigationText: false
+        navigationText: ["<div class='prev-slide'><i class='fa fa-chevron-left'></i></div>","<div class='next-slide'><i class='fa fa-chevron-right'></i></div>"]
     });
 
 

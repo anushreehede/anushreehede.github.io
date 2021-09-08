@@ -1424,6 +1424,25 @@ header .logo a {
 	color: #34c9eb;
 }
 
+.intro-social li a .tooltiptext {
+  visibility: hidden;
+  width: 80px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 2px 0;
+  border-radius: 6px;
+  font-size: 15px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+.intro-social li a:hover .tooltiptext {
+  visibility: visible;
+}
+
 /**
  * responsive:
  * Intro
@@ -1523,8 +1542,11 @@ header .logo a {
 .about-content {
 	position: relative;
 	text-align: left;
-	max-width: 850px;
+	max-width: 900px;
 	margin-bottom: 3.6rem;
+	padding: 3rem;
+	border-style: solid;
+	border-width: 0.5px;
 }
 .about-content h3 {
 	font-family: "poppins-bold", sans-serif;
@@ -2158,6 +2180,7 @@ header .logo a {
 .services-list .icon {
 	display: inline-block;
 	margin-bottom: 2.1rem;
+	text-align: center;
 }
 .services-list .icon i {
 	font-size: 5.4rem;
@@ -2821,6 +2844,21 @@ footer .copyright span:last-child::after {
 	#travel .folio-title {
 		font-size: 2.2rem;
 	}
+}
+
+.owl-carousel .prev-slide{
+      /*background: scroll 0 0;*/
+      /*max-width: 20px;*/
+      position: absolute;
+      top: 180px !important;
+      left: -33px;
+}
+.owl-carousel .next-slide{
+  /*background: scroll -24px 0px;*/
+  /*max-width: 20px;*/
+  position: absolute;
+  top: 180px !important;
+  right: -33px;
 }
 
 /*# sourceMappingURL=main.css.map */
